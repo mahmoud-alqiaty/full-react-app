@@ -1,0 +1,75 @@
+.login_form{
+    width: 100%;
+    height: calc(100vh - 40px);
+    background-color:  #444a6d;
+    position: relative;
+}
+
+.login_form form{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+}
+.login_form form input{
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.login_form form input[type="checkbox"]{
+    width: auto;
+}
+
+.login_form form input:focus{
+    box-shadow: inset 0 0 5px;
+    border: none;
+}
+
+.login_form form button{
+    padding: 10px 15px;
+    margin: 25px;
+    width: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgba(97, 124, 42, 0.7);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.login_form form button:hover{
+    background-color: rgb(97, 124, 42);
+}
+
+.login_form form p{
+    color: #fff;
+}
+
+.login_form form p .link_item{
+    color: rgb(25, 13, 56);
+    font-size: 18px;
+}
+
+.login_form form p .link_item:hover{
+    color: rgb(97, 124, 42);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+@media screen and (max-width:686px){
+    .login_form form{
+        width: 90%;
+    }
+}

@@ -1,0 +1,37 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.cards{
+    box-sizing: border-box;
+    padding: 80px 20px 100px;
+    background-color: #fff;
+    width: 100%;
+}
+
+
+.sample_list{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* @media screen and (max-width:600px){
+    .sample_list{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+} */
+
+.sample h1
+{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+.see_more{
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+}
